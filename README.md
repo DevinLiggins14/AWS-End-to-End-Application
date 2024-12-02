@@ -6,7 +6,10 @@
 <img src="https://github.com/user-attachments/assets/60572532-5888-4f5e-9fac-f5ed67b5ab01"/>
 
 
-<h2> Services involved: </h2>
+
+
+
+<h2/> For our application we will need: A way to store/update/pull code, a way to handle permissions for code, a place to host the website and make updates, a way for users to register and log in, a way to do ride sharing functionality, somewhere to store/return results, a way to invoke ride sharing functionality </h2>
 
 
 
@@ -22,6 +25,8 @@
 - Have an [AWS account](https://aws.amazon.com/console/)
 - Text editor to keep notes for credentials
 - An [ArcGIS account](https://www.arcgis.com/) 
+
+
 
  ##  Step 1: 
 
