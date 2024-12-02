@@ -1,0 +1,20 @@
+# Install Git
+sudo yum install git  # For Amazon Linux or CentOS
+sudo apt update && sudo apt install git  # For Ubuntu
+
+# Create a Bare Repository
+mkdir /opt/git-repos
+cd /opt/git-repos
+git init --bare my-project.git
+
+# Set Up SSH Access
+ssh-keygen -t rsa -b 4096
+ssh-copy-id user@your-server-ip
+
+# Clone the Repository to Your Local Machine
+git clone ssh://user@your-server-ip:/opt/git-repos/my-project.git
+
+# Push and Pull Code
+git add .
+git commit -m "Initial commit"
+git push origin main
